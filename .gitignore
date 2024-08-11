@@ -1,0 +1,9 @@
+# Ignore Unix socket files
+*.sock
+
+# Ignore MySQL temporary files
+#innodb_redo/
+#innodb_temp/
+ib_*.dblwr
+# Ignore MySQL specific files
+/order-service/mysql/
