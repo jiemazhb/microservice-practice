@@ -1,5 +1,17 @@
+<<<<<<< HEAD
 order-service/mysql/undo_001
 order-service/mysql/undo_002
 order-service/mysql/ibtmp1
 order-service/mysql/ibdata1
 order-service/mysql/mysql.ibd
+=======
+# Ignore Unix socket files
+*.sock
+
+# Ignore MySQL temporary files
+#innodb_redo/
+#innodb_temp/
+ib_*.dblwr
+# Ignore MySQL specific files
+/order-service/mysql/
+>>>>>>> 9fdfaf26b33935960f43cde09338e88c3a22a749
